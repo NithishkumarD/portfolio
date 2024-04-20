@@ -76,7 +76,7 @@
 }
 #myname{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 /* .content {
     background-color: #f4f4f4;
@@ -124,7 +124,7 @@
 #about{
     margin:100px auto auto auto;
     text-align: center;
-    width: 20%;
+    width: 100px;
     background-color: var(--maintopic);
     padding:15px 0px;
     border-radius: 20px;
@@ -160,7 +160,7 @@
 .skills h3, .experience h3 {
     margin-top: 20px;
     background-color: var(--suntopic);
-    width: 60px;
+    width: 70px;
     /* text-align: center; */
     border-radius: 20px;
     padding: 5px 10px;
@@ -190,7 +190,7 @@
 #education{
     margin: 20px auto auto auto;
     text-align: center;
-    width: 20%;
+    width: 100px;
     background-color: var(--maintopic);
     padding:10px 0px;
     border-radius: 20px;
@@ -233,7 +233,7 @@
     text-align: center;
     background-color: var(--maintopic);
     border-radius: 20px;
-    width: 20%;
+    width: 100px;
     padding: 10px;
     border: 1px solid black;
 }
@@ -256,14 +256,21 @@
 .projects h3{
     text-align: center;
     background-color: var(--suntopic);
-    width: 30%;
+    width: 40%;
     margin: auto auto 10px auto;
     border-radius: 20px;
     padding: 5px 10px;
 }
 
+.projects img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 .projects p{
     line-height: 25px;
+    text-align: justify;
+    padding: 10px 5px;
 }
 
 .btn{
