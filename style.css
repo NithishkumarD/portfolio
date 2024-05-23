@@ -381,7 +381,7 @@
 } */
 .nav-small ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: space-between; 
     align-items: center;
     width: 90%;   
@@ -399,6 +399,7 @@
 }
 .nav-small ul li{
     padding: 10px 0px;
+    border: 1px solid black;
 }
 .nav-small ul li:hover{
     background-color: var(--suntopic);
